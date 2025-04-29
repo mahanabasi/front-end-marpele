@@ -1,0 +1,49 @@
+:root{
+    --yellow:#f8cd40;
+    --purple:#7f5796;
+    --white:#fdfefc;
+}
+body {
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid lightcyan;
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: var(--white);
+    width: 29%;
+    border: 2px solid darkcyan;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 10%;
+    position: relative;
+    background-color: var(--yellow);
+    /* width: 29%; */
+    height: auto;
+    padding: 10px;
+    /* border: 1px solid lightcyan; */
+}
+.purple{
+    background-color: var(--purple);
+}
+/* .red-border{ */
+    border: 1px solid red;
+/* }
+.green-border{
+    border: 1px solid green;
+} */
